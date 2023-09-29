@@ -1,0 +1,48 @@
+package Selenium;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class RemoveDuplicateCharacter {
+//Remove the duplicate charater form String
+	public static void main(String[] args) {
+		
+		
+		
+//		String a= "Atpadkar";
+//		char []b=	a.toCharArray();
+//		Set sc=new LinkedHashSet();
+//
+//		for(Object abc:b)
+//		{
+//			sc.add(abc);
+//		}
+//
+//		for(Object o:sc)
+//		{
+//		System.out.print(o);
+//		}
+		
+		
+		
+		
+	//Find out duplicate Charater
+		
+		
+		
+		String a="Atppadkar";
+		char []b=a.toCharArray();
+		for(int i=0;i<b.length;i++)
+		{
+			for(int j=i+1;j<b.length;j++)
+			{
+				if(b[i]==b[j])
+				{
+					System.out.println(b[j]);
+				}
+			}
+		}
+
+	}
+
+}

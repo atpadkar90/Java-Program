@@ -1,0 +1,26 @@
+package ProgramPracties;
+
+import java.util.LinkedHashSet;
+
+public class DuplicateCharater {
+
+	public static void main(String[] args) {
+		String a="Sagar Atpadkar";
+		char abc[]=a.toCharArray();
+		
+		
+		
+		LinkedHashSet hs= new LinkedHashSet();
+		
+		for(Object o:abc)
+		{
+			hs.add(o);
+		}
+		
+		for(Object xyz:hs)
+		{
+			System.out.println(xyz);
+		}
+}
+
+	}
